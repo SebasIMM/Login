@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/037baac53d.js" crossorigin="anonymous"></script>
+    <title>Login Page</title>
 </head>
 <body>
-    
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <!-- title -->
+                <h1>Create Account</h1>
+            <!-- icons -->
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your email password</span>
+            <input type="text" name="" id="" placeholder="Name">
+            <input type="email" name="" id="" placeholder="Email">
+            <input type="password" name="" id="" placeholder="Password">
+            <button>Sign Up</button>
+        </form>
+        </div class="form-container sign-in">
+        <form >
+            <!-- title -->
+            <h1>Sign In</h1>
+            <!-- icons -->
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" name="" id="" placeholder="Email">
+            <input type="password" name="" id="" placeholder="Password">
+            <button type="submit">Sign In</button>
+            <a href="#">Forget Your Password?</a>
+        </form>
+    </div>
+    <div class="toggle-container">
+        <div class="toggle">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter with your personal details to use all of site feature</p>
+                <button class="hidden" id="login">Sign in</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Hello Friend!</h1>
+                <p>Register with your personal details to use all of site feature</p>
+                <button class="hidden" id="register">Sign up</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
